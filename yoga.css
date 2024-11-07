@@ -1,10 +1,11 @@
 body {
-    background-color: #3F2860;
-    color: #F5F5F5;
+    background-color: #3F2860;  
+    color: #F5F5F5;             
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    font-size: 16px;            
 }
 
 #wrapper {
@@ -27,6 +28,7 @@ h1 {
     padding-left: 2em;
     margin: 0;
     font-size: 2.5rem;
+    color: #3F2860;             
 }
 
 nav {
@@ -38,10 +40,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #3F2860;
+    color: #3F2860;            
     padding: 8px 15px;
     margin: 0 10px;
     display: inline-block;
+    font-size: 1rem;
 }
 
 nav a.active {
@@ -67,6 +70,7 @@ footer {
     text-align: center;
     padding: 1em;
     margin-top: 20px;
+    color: #3F2860;  
 }
 
 section {
@@ -85,6 +89,20 @@ img {
 main {
     padding-left: 2em;
     padding-right: 2em;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #3F2860;  
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #3F2860;  
+}
+
+ul {
+    color: #3F2860; 
 }
 
 @media (max-width: 768px) {
